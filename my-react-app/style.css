@@ -1,0 +1,46 @@
+/* 頁面整體 */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(to right, #f0f2f5, #ffffff);
+    text-align: center;
+    padding: 50px;
+    margin: 0;
+  }
+  
+  /* 標題 */
+  h1 {
+    font-size: 28px;
+    margin-bottom: 40px;
+    color: #222;
+  }
+  
+  /* 導覽列按鈕 */
+  a {
+    display: inline-block;
+    color: white;
+    background-color: #1e40af; /* 深藍 */
+    text-decoration: none;
+    padding: 10px 16px;
+    margin: 5px;
+    border-radius: 6px;
+    border: 1px solid gold;
+    box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+    font-weight: bold;
+  }
+  
+  /* 滑鼠移上去的效果 */
+  a:hover {
+    background-color: #2563eb; /* 淺一點的藍 */
+    transform: translateY(-2px);
+  }
+  
+  /* 特別處理 react 按鈕 */
+  a[href*="react"] {
+    background-color: crimson;
+  }
+  
+  a[href*="react"]:hover {
+    background-color: #e53935;
+  }
+  
